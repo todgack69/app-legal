@@ -2,32 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Terms of Use — Wedding Wagers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms of Use</title>
   <style>
-    body { font-family: -apple-system, system-ui, Segoe UI, Roboto, Arial; margin: 40px auto; max-width: 820px; padding: 0 16px; line-height: 1.6; }
-    h1,h2 { line-height: 1.25; }
-    .muted { color: #666; }
+    :root {
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+      --chip: #f3f4f6;
+      --link: #111827;
+      --card: #fafafa;
+    }
+    body {
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    a { color: var(--link); text-decoration: underline; }
+    .back { display:inline-block; margin-bottom: 22px; }
+    h1 { margin: 8px 0 6px; font-size: 34px; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); margin-bottom: 26px; }
+    .card {
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 14px;
+      padding: 18px 18px;
+      margin: 14px 0;
+    }
+    h2 { margin: 0 0 10px; font-size: 18px; }
+    p { margin: 8px 0; line-height: 1.5; }
+    ul { margin: 8px 0 0 18px; color: var(--text); }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 2px 6px;
+    }
   </style>
 </head>
 <body>
-  <p><a href="./index.html">← Back</a></p>
-  <h1>Terms of Use</h1>
-  <p class="muted">Last updated: 2026-02-17
-    
-  <h2>Use of the app</h2>
-  <p>Wedding Wagers is intended for friendly, private event-based gameplay. You agree to use the app lawfully and respectfully.</p>
+  <div class="wrap">
+    <a class="back" href="./index.html">← Back</a>
 
-  <h2>User content</h2>
-  <p>You are responsible for the content you submit (e.g., names, questions, predictions) and must not submit unlawful or harmful content.</p>
+    <h1>Terms of Use</h1>
+    <div class="sub">Terms that govern your use of Wedding Wagers.</div>
 
-  <h2>Availability</h2>
-  <p>The app is provided “as is” and may change over time. We may suspend features for maintenance or security.</p>
+    <div class="card">
+      <h2>Acceptance</h2>
+      <p>
+        By using Wedding Wagers, you agree to these Terms. If you do not agree, do not use the app.
+      </p>
+    </div>
 
-  <h2>Limitation of liability</h2>
-  <p>To the maximum extent allowed by law, we are not liable for indirect damages or losses arising from use of the app.</p>
+    <div class="card">
+      <h2>Eligibility</h2>
+      <p>
+        You must be able to form a binding contract in your jurisdiction to use the app.
+      </p>
+    </div>
 
-  <h2>Contact</h2>
-  <p>Support: <strong>todgack69@gmail.com</strong></p>
+    <div class="card">
+      <h2>Using the App</h2>
+      <ul>
+        <li>Use the app only for lawful purposes.</li>
+        <li>Do not attempt to interfere with the app’s operation or access it in an unauthorized manner.</li>
+        <li>You are responsible for activity under your account.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Events, Predictions, and Content</h2>
+      <p>
+        Hosts create events and questions. Guests submit predictions. You are responsible for the content you submit,
+        including ensuring it is appropriate and does not violate applicable laws or third-party rights.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Account Deletion</h2>
+      <p>
+        You can delete your account directly in the app:
+      </p>
+      <p class="muted">
+        <code>Admin</code> → <code>Account / Advanced</code> → <code>Delete My Account</code>
+      </p>
+      <p class="muted">
+        If you can’t access the app, contact support at <a href="mailto:todgack69@gmail.com">todgack69@gmail.com</a>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Disclaimer</h2>
+      <p>
+        The app is provided “as is” and “as available” without warranties of any kind, express or implied,
+        including implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Limitation of Liability</h2>
+      <p>
+        To the fullest extent permitted by law, we will not be liable for any indirect, incidental, special,
+        consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Changes</h2>
+      <p>
+        We may update these Terms from time to time. We will update the “Last updated” date when changes are made.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>
+        Questions about these Terms? Email <a href="mailto:todgack69@gmail.com">todgack69@gmail.com</a>.
+      </p>
+    </div>
+
+    <p class="muted">Last updated: 2026-02-18</p>
+  </div>
 </body>
 </html>
